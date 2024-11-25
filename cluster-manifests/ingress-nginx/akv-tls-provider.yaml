@@ -13,13 +13,13 @@ spec:
     - objectName: ingress-internal-aks-ingress-contoso-com-tls
       key: tls.crt
   parameters:
-    clientID: INGRESS_CONTROLLER_WORKLOAD_IDENTITY_CLIENT_ID_BU0001A0005_01
+    clientID: 4e1e31b9-25de-4c35-81ff-b66f25a81b81
     usePodIdentity: "false"
     useVMManagedIdentity: "false"
-    keyvaultName: KEYVAULT_NAME
+    keyvaultName: kv-aks-nddb427jr4fd2
     objects: |
       array:
         - |
           objectName: ingress-internal-aks-ingress-contoso-com-tls
           objectType: secret
-    tenantID: KEYVAULT_TENANT
+    tenantID: b9ccb062-1ade-421f-a3da-0a738577137d
