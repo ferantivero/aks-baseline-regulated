@@ -142,10 +142,10 @@ resource acr 'Microsoft.ContainerRegistry/registries@2022-02-01-preview' = {
     zoneRedundancy: 'Enabled'
   }
 
-  resource grl 'replications' = {
-    name: geoRedundancyLocation
-    location: geoRedundancyLocation
-  }
+  // resource grl 'replications' = {
+  //   name: geoRedundancyLocation
+  //   location: geoRedundancyLocation
+  // }
 
   resource ap 'agentPools@2019-06-01-preview' = {
     name: 'acragent'
@@ -205,7 +205,7 @@ resource peCr 'Microsoft.Network/privateEndpoints@2022-05-01' = {
     ]
   }
   dependsOn: [
-    acr::grl
+    acr
   ]
 
   resource pdzg 'privateDnsZoneGroups' = {

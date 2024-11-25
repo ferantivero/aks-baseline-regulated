@@ -11,7 +11,7 @@ resources:
 - kured/kured.yaml
 images:
 - name: busybox
-  newName: REPLACE_ME_WITH_YOUR_ACRNAME.azurecr.io/live/library/busybox
+  newName: acraksnddb427jr4fd2.azurecr.io/live/library/busybox
   newTag: 1.37.0
 - name: ghcr.io/kubereboot/kured
-  newName: REPLACE_ME_WITH_YOUR_ACRNAME.azurecr.io/live/kubereboot/kured
+  newName: acraksnddb427jr4fd2.azurecr.io/live/kubereboot/kured

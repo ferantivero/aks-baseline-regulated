@@ -5,9 +5,4 @@ users:
     sudo: False
     lock_passwd: True
     ssh-authorized-keys:
-      - <public-ssh-rsa-for-opsuser01>
-  - name: opsuser02
-    sudo: False
-    lock_passwd: True
-    ssh-authorized-keys:
-      - <public-ssh-rsa-for-opsuser02>
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDEg/jRK/PPdB2dS+UCAInOWaxI+7yOCWFv33eHVCSW1KqmTvnOsM3Mp0n8+feOMVfHtGxc4X2x4qzVYf/MVuhXGYn7C4pdkDA183Q0m3ciQpdSm7wSnpuHEABWQC4mvkG/7F7vSijS33FkuPLdS8sEDjQZ+aEaoLbHTT94k4zkoQ2JgOWvgZ56I+F6C80PyH+BezcQji9weHBjmUqM0SmTzUspZLYxkgV4Wung2GG6Mx4mwPukpl3UibaB39PZ+CFiNwiyu9lIPxJRIBW/7i/TnlmNrtHNkLw03ulWopvsszUKKgvnywR41KL0DaMM+B5kDMdsOOQAszumk1Vj+DpVsGt3XpEZorQVHXxvjWJ+8XetEiCKrZFW7nZLzBXwyTtUP/KxDnJeGPtgt/Oi/wMAWEElhSTSSh/4MUbWqvI2lE0RxQ2dUS9IR3dB+rMi9V39wuFT3CE/Vzpz0HhE2zXe3+GSfBwnwfh4PV12l6ZURdDwTlG8YSfpGWuolrMo4bLVCH2ZVulZF3GJ192Kqa9nYEhI5n6Q8feiIJ2u2isNBx0xzqbbKt7HErOXj94syX0nZP1WelzOSnEA5EA7HEKEPs1JU6gUYdbVKWmypXIXlVJ3Y10DPlHhKOhpfgyEbGa1SNYyD/iDioMpKKlHgFfCl/rRlAKQF4qlK8Knyb6QjQ== vagrant@ubuntu2204-dev
